@@ -1,0 +1,142 @@
+
+.body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #86898f;
+}
+
+.msg_box {
+  background-color: #676a70;
+  width: 800px;
+  border-radius: 5px;
+}
+
+.table_box {
+  background-color: #7d8088; 
+  width: 800px;
+  border-radius: 5px;
+}
+
+.hobby_box {
+  background-color: #878c97; 
+  width: 800px;
+  border-radius: 5px;
+}
+
+.bg-1 {
+  background: #bbdefb;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.bg-2 {
+  background: #90caf9;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  font-size: 18px;
+  width: 100;
+}
+
+.bg-3 {
+  padding-top: 5px;
+  
+}
+
+.bg-4 {
+  background: #6C5B7B;
+}
+
+.bg-5 {
+  background: #355c7d;
+}
+
+
+.btn {
+  background: #1976d2;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list_hobby {
+  padding: 0px 20px;
+  margin: 0;
+  margin-bottom: 0;
+}
+ 
+.card h3 {
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.card .bg-1 {
+  margin-top: 11px;
+  margin-bottom: 122px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 5px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #102a68;
+}
+ 
+.form h2 {
+  text-align: center;
+}
+
+.form-row  {
+  margin-bottom: 10px;
+  display: flex;
+
+}
+
+.form-row .form-group {
+  /* display: inline-block; */
+  margin-right: 20px;
+  width: 50%;
+  /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group {
+  display: block; 
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit; 
+}
